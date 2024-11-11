@@ -9,7 +9,7 @@ from Learning import UNet
 
 # Load the trained model
 model = UNet()
-model.load_state_dict(torch.load("satellite_to_heatmap_unet.pth"))
+model.load_state_dict(torch.load("03TrainedModel/satellite_to_heatmap_unet.pth"))
 model.eval()  # Set model to evaluation mode
 
 # Directories
